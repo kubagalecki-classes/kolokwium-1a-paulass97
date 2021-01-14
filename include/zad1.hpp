@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Tagliatelle: 
+class Tagliatelle
 {
   public:
   Tagliatelle(): L(0.5), W(0.5), R(0.5) {}
@@ -24,3 +24,4 @@ class Tagliatelle:
   static const double C;
 };
 
+int main(){}
