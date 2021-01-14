@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Tagliatelle
+class Tagliatelle:public Makaron
 {
   public:
   Tagliatelle(): L(0.5), W(0.5), R(0.5) {}
