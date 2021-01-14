@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#inlcude <iostream>
+#include <iostream>
 #include <algorithm>
 #include <string>
 
