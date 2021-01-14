@@ -9,12 +9,13 @@ using namespace std;
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 
-class Tagliatelle
+class Tagliatelle:public Makaron
 {
 	public:
-	Tagliatelle(double dlugosc, double szerokosc, double proporcje):L(dlugosc),W(szerokosc),R(proporcje){}
 	Tagliatelle():L(0.5),W(0.5),R(0.5){}
-	double ileMaki(unsigned P) const {return P*L*W*(1.-R)*C;}
+	Tagliatelle(double dlugosc, double szerokosc, double proporcje):L(dlugosc),W(szerokosc),R(proporcje){}
+
+	double ileMaki(unsigned P)const{return P*L*W*(1.-R)*C;}
 	
 
 	private:
@@ -23,3 +24,6 @@ class Tagliatelle
 	double R;
 	static const double C;
 };
+
+
+
