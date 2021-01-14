@@ -9,7 +9,7 @@ using namespace std;
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 
-class Tagliatelle:public Makaron
+class Tagliatelle
 {
 	public:
 	Tagliatelle():L(0.5),W(0.5),R(0.5){}
