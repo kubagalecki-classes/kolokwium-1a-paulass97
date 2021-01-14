@@ -1,8 +1,11 @@
 #include "catch.hpp"
+#include <iostream>
+#include <string>
+#include <algorithm>
 
 using namespace std;
 
-class Tagliatelle : 
+class Tagliatelle: 
 {
   public:
   Tagliatelle(): L(0.5), W(0.5), R(0.5) {}
